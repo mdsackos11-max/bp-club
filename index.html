@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BP Club Rankings</title>
+  <meta name="description" content="A premium black and gold ranking website." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#">
+        <div class="brand-mark">BP</div>
+        <div>
+          <strong>BP Club</strong>
+          <span>Rankings</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a class="active" href="#rankings">Rankings</a>
+        <a href="#news">News</a>
+        <a href="#vote">Vote</a>
+        <a href="#battle">Battle</a>
+        <a href="#community">Community</a>
+        <a href="#members">Members</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-gold" href="#members">Become a Member</a>
+        <a class="btn btn-blue" href="#support">Support Us</a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="announcement">
+        <span>📣</span>
+        <a href="#contact">Contact us</a>
+        <span>for ads, sponsorships or partnerships</span>
+        <span>📣</span>
+      </div>
+
+      <div class="hero-content">
+        <div class="eyebrow">WEEKLY UPDATED</div>
+        <h1>BP Club <span>Rankings</span></h1>
+        <p>Weekly rankings of the most influential names in your community.</p>
+        <div class="verified">✦ Verified &amp; Curated Rankings</div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="news-card" id="news">
+        <div>
+          <div class="section-kicker">BREAKING NEWS</div>
+          <h2>Latest update</h2>
+          <p id="newsText">Your headline goes here. Replace this with your own ranking news, announcement, or featured story.</p>
+        </div>
+        <div class="news-badge">LIVE</div>
+      </div>
+
+      <div class="countdown-card">
+        <div class="section-kicker">NEXT RANKINGS UPDATE</div>
+        <div class="countdown">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <i>:</i>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <i>:</i>
+          <div><strong id="mins">00</strong><span>MINS</span></div>
+          <i>:</i>
+          <div><strong id="secs">00</strong><span>SECS</span></div>
+        </div>
+        <p>All visitors see the same countdown.</p>
+      </div>
+
+      <div class="movement-grid">
+        <article class="movement risers">
+          <div class="movement-title"><span>↗</span> Biggest Risers</div>
+          <div id="risers"></div>
+        </article>
+        <article class="movement drops">
+          <div class="movement-title"><span>↘</span> Biggest Drops</div>
+          <div id="drops"></div>
+        </article>
+      </div>
+
+      <section id="rankings" class="rankings-section">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">THE LEADERBOARD</div>
+            <h2>🏆 Full Rankings</h2>
+          </div>
+          <div class="controls">
+            <input id="search" type="search" placeholder="Search rankings..." />
+            <select id="sort">
+              <option value="rank">Rank</option>
+              <option value="rise">Biggest rise</option>
+              <option value="drop">Biggest drop</option>
+              <option value="name">Name</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="promo-pill">✦ Go check the new Top 90!</div>
+        <div id="rankingList" class="ranking-list"></div>
+      </section>
+
+      <section class="hall" id="community">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">THE LEGENDS</div>
+            <h2>Hall of Fame</h2>
+            <p>Retired legends and all-time favorites.</p>
+          </div>
+        </div>
+        <div id="hallList" class="hall-grid"></div>
+      </section>
+    </section>
+  </main>
+
+  <div class="modal" id="profileModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close>×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div><strong>BP Club Rankings</strong><span>Your community. Your rankings.</span></div>
+      <div class="footer-links">
+        <a href="#about">About</a><a href="#rules">Rules</a><a href="#privacy">Privacy</a><a href="#contact">Contact</a>
+      </div>
+      <span>© 2026 BP Club Rankings</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
