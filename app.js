@@ -4,7 +4,7 @@ const rankings = [
   {rank:3,name:"Vincent",title:"Community Pick",change:-4,photo:"assets/vincent.jpeg"},
   {rank:4,name:"Jacob",title:"foid slayer",change:-2,photo:"assets/jacob.jpeg"},
   {rank:5,name:"Ryder",title:"the elite gooner",change:5,photo:"assets/ryder.jpeg"},
-  {rank:6,name:"Kit",title:"unknown slayer",change:3,photo:"assets/number6.jpeg"},
+  {rank:6,name:"kit",title:"unknown slayer",change:3,photo:"assets/number6.jpeg"},
   {rank:7,name:"tim",title:"ginger comedian",change:12,photo:"assets/number7.jpeg"},
   {rank:8,name:"Calan",title:"Psl apex",change:8,photo:"assets/calan.jpeg"},
   {rank:9,name:"Your #9 Person",title:"Standout",change:2},
