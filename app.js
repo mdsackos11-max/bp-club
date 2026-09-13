@@ -3,7 +3,7 @@ const rankings = [
   {rank:2,name:"Max",title:"Hummble mogger",change:-1,photo:"assets/max.jpeg"},
   {rank:3,name:"Calan",title:"Psl apex",change:8,photo:"assets/calan.jpeg"},
   {rank:4,name:"Jacob",title:"foid slayer",change:-2,photo:"assets/jacob.jpeg"},
-  {rank:5,name:"Your #5 Person",title:"Rising Name",change:5},
+  {rank:5,name:"Ryder",title:"the elite gooner",change:5,photo:"assets/ryder.jpeg"},
   {rank:6,name:"Your #6 Person",title:"Veteran",change:3},
   {rank:7,name:"Your #7 Person",title:"New Entry",change:12},
   {rank:8,name:"Your #8 Person",title:"Community Pick",change:-4},
