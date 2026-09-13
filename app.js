@@ -1,6 +1,6 @@
 const rankings = [
-  {rank:1,name:"Carter",title:"Appeal Prince",change:1,photo:"assets/carter.jpeg"},
-  {rank:2,name:"Max",title:"Hummble mogger",change:-1,photo:"assets/max.jpeg"},
+  {rank:1,name:"Max",title:"Hummble mogger",change:-1,photo:"assets/max.jpeg"},
+  {rank:2,name:"Carter",title:"Appeal Prince",change:1,photo:"assets/carter.jpeg"},
   {rank:3,name:"Vincent",title:"Community Pick",change:-4,photo:"assets/vincent.jpeg"},
   {rank:4,name:"Jacob",title:"foid slayer",change:-2,photo:"assets/jacob.jpeg"},
   {rank:5,name:"Ryder",title:"the elite gooner",change:5,photo:"assets/ryder.jpeg"},
